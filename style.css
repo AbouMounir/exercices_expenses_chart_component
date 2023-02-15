@@ -19,11 +19,13 @@ body{
     font-size: 18px;
     font-family: 'DM Sans', sans-serif;
     background-color: var(--Cream);
+    display: flex;
+    justify-content: center;
 }
 
 .container{
-    margin: 80px 350px 80px 350px;
-    width: 40%;
+    margin-top: 80px;
+    width: 30%;
 }
 .top_part_texts p{
     line-height: 30px;
@@ -80,7 +82,7 @@ body{
 
 .month{
     height: 100%;
-    width: 10%;
+    width: 11%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
